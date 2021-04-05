@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Prompt, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+    margin: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+}
+nav a:hover {
+    color: darkred;
+}
+nav a:active {
+    color: gray;
+}
+
+/* MAIN */
+
+.about-me {
+    display: block;
+}
+
+.about-me-container {
+    display: flex;
+}
+.about-me-container img {
+    height: 100%;
+}
+
+.text-container {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.about-me img {
+    height: 300px;
+}
+
+.things-i-do-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.things-i-do-container img {
+    max-height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 70px;
+    text-align: center;
+    margin-top: auto;
+    bottom: 0px;
+}
